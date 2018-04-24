@@ -3,12 +3,14 @@
 using namespace std;
 
 /*
-* the PID class.
-*/
+ * the PID class.
+ */
 
-PID::PID() {}
+PID::PID() {
+}
 
-PID::~PID() {}
+PID::~PID() {
+}
 
 void PID::Init(double Kp, double Ki, double Kd) {
   /* Set Errors to zero */
